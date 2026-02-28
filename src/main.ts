@@ -5,9 +5,9 @@ const PORT = 3000;
 const app = express();
 
 app.get("/api/hello", async (req, res) => {
-  res.json({
-    message: "Hello Express",
-  });
+    res.json({
+      message: "Hello Express!!!",
+    });
 });
 
 app.listen(PORT, () => {
